@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook-log in or sign up</title>
+    <!-- bootstrap-stylesheet  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- custom css stylesheet  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font-awesome  -->
+    <script src="https://kit.fontawesome.com/45bf84cfb3.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <main class="main-bg pb-5">
+        <section class="container-fluid c-height ">
+            <div class="row justify-content-evenly pb-5 ">
+                <div class="col col-lg-4 col-12 login">
+                    <img src="images/facebook.svg" alt="">
+                    <h3 class="ps-3">Recent logins</h3>
+                    <p class="mb-4 ps-3">Click your picture or add an account.</p>
+                    <div class="row gx-3 ps-3">
+                        <div class="col col-lg-5">
+                            <!------------------------------- 
+                              modal link inside anchore tag
+                            ------------------------------- -->
+                            <a href="#" class="linking" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <div class="card b-radius">
+                                    <div>
+                                        <button type="button" class="btn-close position-absolute cls-button"
+                                            aria-label="Close"></button>
+                                        <img src="images/profile.jpg" class="card-img-top bi-radius" alt="...">
+                                    </div>
+                                    <div class="c-footer py-2">
+                                        <p class="mb-0 text-dark">Alim</p>
+                                    </div>
+                                </div>
+                            </a>
+
+                        </div>
+                        <div class="col col-lg-5">
+                            <div class="card b-radius">
+
+                                <div class="row justify-content-center py-5">
+                                    <div class="col col-lg-5 col-4 pt-2 pb-1">
+                                        <img src="images/plus-icon.png" alt="">
+                                    </div>
+                                </div>
+
+                                <div class=" c-footer py-2">
+                                    <p class="text-primary mb-0">Add Account</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- signup-card section  -->
+
+
+                <div class="col col-lg-4 col-12 signup-part  pt-5">
+                    <form class="p-3 border shadow sign-up-bg">
+
+                        <div class="input-group input-group-lg mb-3">
+                            <input type="email" placeholder="Email address or phone number" class="form-control"
+                                aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                        </div>
+                        <div class="input-group input-group-lg mb-3">
+                            <input type="password" placeholder="Passsword" class="form-control"
+                                aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-lg btn-primary " type="button">
+                                <h5>Log In</h5>
+                            </button>
+                        </div>
+                        <div class="text-center pt-3">
+                            <a class="linking" href="">Forgotten password?</a>
+                        </div>
+                        <div class="my-4">
+                            <hr>
+                        </div>
+                        <div class="d-grid gap-2 col-7 mx-auto my-2">
+                            <button class="btn b-new btn-lg " type="button">
+                                <h5>Create New Account</h5>
+                            </button>
+
+                        </div>
+                    </form>
+                    <p class="text-center pt-4"><a class="linking fw-bold text-dark" href="">Create a page</a> for a
+                        celebrity,
+                        band or
+                        business.</p>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-------------------------
+             Modal
+         -------------------------- -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body mdl-body d-flex flex-column align-items-center">
+                        <img src="images/profile.jpg" alt="">
+                        <p class="my-0">Alim Shaon</p>
+                    </div>
+                    <div class="modal-footer border-0 justify-content-start">
+                        <div class="input-group input-group-lg mb-3">
+                            <input type="password" placeholder="Passsword" class="form-control">
+                        </div>
+                        <div class="mb-3 form-check align-items-start">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Remember Password</label>
+                        </div>
+                        <div class="d-grid gap-2 col-12 mx-auto">
+                            <button class="btn btn-primary" type="button">
+                                <h5>Log In</h5>
+                            </button>
+                        </div>
+                        <div class="flex-grow-1 text-center">
+                            <a class="linking text-primary" href="">Forgotten
+                                password?</a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="text-center p-5">
+        <h2> this is the footer.</h2>
+    </footer>
+
+    <!-- bootstrap-script  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

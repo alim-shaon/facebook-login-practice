@@ -1,0 +1,87 @@
+/* ----------------------------
+some necessary chages  */
+.main-bg{
+    background-color: #f0f2f5;
+
+}
+
+.c-height{
+    padding-top: 5%;
+}
+
+.login img{
+    width: 45%;
+}
+
+/*----------------------------------------
+ card top close button custom  */
+.cls-button{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: gray;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.cls-button:hover{
+    background-color: white;
+    transform: scale(1.5);
+    margin-top: 0;
+    margin-left: 0;
+}
+
+
+/* ------------------------------------------
+right and left card and form style  */
+.sign-up-bg{
+    background-color: white;
+    border-radius: 10px ;
+}
+
+.b-radius,.bi-radius{
+    border-radius: 10px;
+}
+.b-radius img{
+    width: 100%;
+}
+.b-radius{
+    transition: box-shadow 0.25s ease-in;
+}
+.b-radius:hover{
+box-shadow: 2px 2px 10px rgb(201, 200, 200);
+}
+.c-footer p{
+    text-align: center;
+    font-size: 18px;
+}
+
+/*--------------------------
+ green button sustomize  */
+.b-new{
+    background-color: #42b72a;
+    color: white;
+}
+.b-new:hover{
+    color: white;
+    background-color:#379924 ;
+}
+
+/*--------------------------
+ link decoration customize  */
+.linking{
+    text-decoration: none;
+}
+
+footer{
+    height: 150px;
+}
+
+
+
+
+
+
+.mdl-body img{
+    width: 40%;
+    border-radius: 50%;
+}
